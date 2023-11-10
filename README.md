@@ -2,7 +2,7 @@
 This project creates a custom component that can be used to depict windiness in very cold or windy conditions, it can be useful for natural entites like trees and other entities.
 
 ## Video
-[video how it works]()
+[video how it works](https://drive.google.com/drive/folders/1uuuH0xvDfTo20jxdtDEzdKtBToAXsM5X)
 
 ## Try it out
 
