@@ -36,7 +36,6 @@ export class Windy {
 
         // entity.getComponent(Animator).play(clipWind, true)
 
-        
 
 // Create the pivot entity
 const pivot = new Entity()

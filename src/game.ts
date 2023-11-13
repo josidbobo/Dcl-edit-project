@@ -12,4 +12,3 @@
 import {SceneFactory, WithGLTFShape} from "dcl-edit/build/scripts/scenes";
 
 var scene = SceneFactory.createNewnewScene();
-
