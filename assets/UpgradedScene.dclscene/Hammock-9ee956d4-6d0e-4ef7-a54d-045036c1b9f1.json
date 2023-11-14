@@ -1,8 +1,8 @@
 {
-  "customName": "Sand",
-  "guid": "580966e3-db8c-5fe3-1c23-37d41e31547e",
+  "customName": "Hammock",
+  "guid": "9ee956d4-6d0e-4ef7-a54d-045036c1b9f1",
   "parentGuid": null,
-  "hierarchyOrder": 1.0,
+  "hierarchyOrder": 12.0,
   "isExposed": false,
   "components": [
     {
@@ -13,9 +13,9 @@
           "name": "position",
           "type": "Vector3",
           "fixedValue": {
-            "x": 8.000001,
-            "y": 0.0,
-            "z": 8.0
+            "x": 8.545617,
+            "y": 1.3710041,
+            "z": 12.5456152
           }
         },
         {
@@ -23,9 +23,9 @@
           "type": "Quaternion",
           "fixedValue": {
             "x": 0.0,
-            "y": 0.0,
+            "y": -0.707106769,
             "z": 0.0,
-            "w": 1.0
+            "w": 0.707106769
           }
         },
         {
@@ -34,7 +34,7 @@
           "fixedValue": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.0
+            "z": 1.65
           }
         }
       ]
@@ -46,7 +46,7 @@
         {
           "name": "asset",
           "type": "Asset",
-          "fixedValue": "d727a55b-158d-4506-b102-e1c963953f9c"
+          "fixedValue": "17d09db8-4379-4d48-a253-21aaf70b8c3c"
         },
         {
           "name": "visible",
@@ -66,5 +66,5 @@
       ]
     }
   ],
-  "dclEditVersionNumber": "1.0.5"
+  "dclEditVersionNumber": "3.0.0"
 }

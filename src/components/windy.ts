@@ -6,10 +6,10 @@
     "component": "EntityMover",
     "category": "Custom/Movers",
     "properties" : [
-        [
+        {
         "name" : "distance"
         "type" : "number"
-        ]
+       }
     ]
 }
 */
@@ -18,52 +18,35 @@
 export class Windy {
     // the properties of your component
      public distance: number = 2;
-    // public dimensions: Vector3 = new Vector3(2, 4, 2);
-    // public label: string = "My Elevator";
 
     // optional init funcion, that is called, after the properties are set
     init(entity: Entity) {
 
-        // entity.addComponent(new Animator())
-        // // your init code here
+    // Create the pivot entity
+      const pivot = new Entity()
+      // Position the pivot entity on the pivot point of the rotation and set the rotation direction
+      pivot.addComponent(
+        new Transform({
+          position: new Vector3(3, 2, 3),
+        }).rotate(Vector3.Left(), this.distance).rotate(Vector3.Right(), -(this.distance))
+      )
+      // add pivot entity
+      engine.addEntity(pivot)
+      // Set pivot as the parent
+      entity.setParent(pivot)
+      // Position child in reference to parent
+      entity.addComponent(
+        new Transform({
+          position: new Vector3(0, 0.5, 0.5),
+        })
+      )
+      // // Define a system that updates the rotation on every frame
 
-        // // Instance and add a clip
-        // entity.getComponent(Animator).addClip(new AnimationState("wind"))
+      // // Add the system
+      // engine.addSystem(new PivotRotate())
 
-        // entity.getComponent(Animator).getClip("wind")
-
-        // const clipWind = new AnimationState("wind")
-
-        // entity.getComponent(Animator).play(clipWind, true)
-
-
-// Create the pivot entity
-const pivot = new Entity()
-// Position the pivot entity on the pivot point of the rotation
-pivot.addComponent(
-  new Transform({
-    position: new Vector3(3, 2, 3),
-  }).rotate(Vector3.Left(), this.distance).rotate(Vector3.Right(), -(this.distance))
-)
-// add pivot entity
-engine.addEntity(pivot)
-// Set pivot as the parent
-entity.setParent(pivot)
-// Position child in reference to parent
-entity.addComponent(
-   new Transform({
-     position: new Vector3(0, 0.5, 0.5),
-   })
- )
-// // Define a system that updates the rotation on every frame
-
-// // Add the system
-// engine.addSystem(new PivotRotate())
-
-// entity.addComponent(new PivotRotate())
-
+      // entity.addComponent(new PivotRotate())
     }
-    
 }
 
 // export class PivotRotate implements ISystem {

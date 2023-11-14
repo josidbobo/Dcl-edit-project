@@ -1,8 +1,8 @@
 {
-  "customName": "Speakers",
-  "guid": "75834a39-f185-3a94-acee-9640f72e26db",
+  "customName": "Beach Umbrella",
+  "guid": "83a1e6bf-f4f5-4a37-8c8f-936171873b7c",
   "parentGuid": null,
-  "hierarchyOrder": 0.0,
+  "hierarchyOrder": 8.0,
   "isExposed": false,
   "components": [
     {
@@ -13,9 +13,9 @@
           "name": "position",
           "type": "Vector3",
           "fixedValue": {
-            "x": 6.406245,
-            "y": -0.341121972,
-            "z": 9.315231
+            "x": 7.545616,
+            "y": 0.3710041,
+            "z": 6.545616
           }
         },
         {
@@ -32,7 +32,7 @@
           "name": "scale",
           "type": "Vector3",
           "fixedValue": {
-            "x": 2.0,
+            "x": 1.0,
             "y": 1.0,
             "z": 1.0
           }
@@ -46,7 +46,7 @@
         {
           "name": "asset",
           "type": "Asset",
-          "fixedValue": "da30258e-3cc1-48a4-bc55-508e923ae977"
+          "fixedValue": "0be9abea-83ae-4a9c-b24d-8a5ce1b9580f"
         },
         {
           "name": "visible",
@@ -66,5 +66,5 @@
       ]
     }
   ],
-  "dclEditVersionNumber": "1.0.5"
+  "dclEditVersionNumber": "3.0.0"
 }

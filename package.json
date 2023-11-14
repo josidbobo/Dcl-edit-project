@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@dcl/ecs-scene-utils": "latest",
+    "dcl-edit": "^1.0.5",
     "decentraland-ecs": "latest"
   },
   "bundleDependencies": [
