@@ -18,10 +18,8 @@
 export class Windy {
     // the properties of your component
      public distance: number = 2;
-
     // optional init funcion, that is called, after the properties are set
     init(entity: Entity) {
-
     // Create the pivot entity
       const pivot = new Entity()
       // Position the pivot entity on the pivot point of the rotation and set the rotation direction
