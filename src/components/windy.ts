@@ -34,11 +34,11 @@ export class Windy {
       entity.setParent(pivot)
       // Position child in reference to parent
       entity.addComponent(() =>{
-        new Transform({
-          position: new Vector3(0, 0.5, 0.5),
+        new entity.getComponent(Transform).position.y = 0.5;
+        new entity.getComponent(Transform).position.z = 0.5
+          new entity.getComponent(Transform).position.x = 0
         })
-        })
-      entity.getComponent(Transform)
+      
       // // Define a system that updates the rotation on every frame
       // // Add the system
       // engine.addSystem(new PivotRotate())
