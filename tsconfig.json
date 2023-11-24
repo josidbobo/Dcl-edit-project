@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outFile": "./bin/game.js",
+    "ignoreDeprecations": "5.0",
     "allowJs": true,
     "paths": {
       "@dcl/ecs-scene-utils": [
