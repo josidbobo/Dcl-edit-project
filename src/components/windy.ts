@@ -34,16 +34,12 @@ export class Windy {
       entity.setParent(pivot)
       // Position child in reference to parent
       entity.addComponent(() =>{
-        new entity.getComponent(Transform).position.y = 0.5;
-        new entity.getComponent(Transform).position.z = 0.5
-          new entity.getComponent(Transform).position.x = 0
+         entity.getComponent(Transform).position.y = 0.5;
+         entity.getComponent(Transform).position.z = 0.5
+           entity.getComponent(Transform).position.x = 0
         })
       
-      // // Define a system that updates the rotation on every frame
-      // // Add the system
-      // engine.addSystem(new PivotRotate())
-      // entity.addComponent(new PivotRotate())
-    }
+         }
 }
 
 // export class PivotRotate implements ISystem {
@@ -53,3 +49,9 @@ export class Windy {
 //       transform.rotate(Vector3.Right(), -2)
 //     }
 //   }
+
+ // // Define a system that updates the rotation on every frame
+      // // Add the system
+      // engine.addSystem(new PivotRotate())
+      // entity.addComponent(new PivotRotate())
+
