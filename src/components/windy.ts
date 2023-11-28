@@ -14,33 +14,33 @@
 }
 */
 
+
 @Component("EntityMover")
 export class Windy {
     // the properties of your component
-     public distance: number = 2;
+     public speed: number = 0.02 
+     private entity: Entity | undefined
     // optional init funcion, that is called, after the properties are set
     init(entity: Entity) {
-    // Create the pivot entity
-      const pivot = new Entity()
-      // Position the pivot entity on the pivot point of the rotation and set the rotation direction
-      pivot.addComponent(
-        new Transform({
-          position: new Vector3(3, 2, 3),
-        }).rotate(Vector3.Left(), this.distance).rotate(Vector3.Right(), -(this.distance))
-      )
-      // add pivot entity
-      engine.addEntity(pivot)
-      // Set pivot as the parent
-      entity.setParent(pivot)
-      // Position child in reference to parent
-      entity.addComponent(() =>{
-         entity.getComponent(Transform).position.y = 0.5;
-         entity.getComponent(Transform).position.z = 0.5
-           entity.getComponent(Transform).position.x = 0
-        })
-      
-         }
-}
+    // Create the pivot entity 
+    this.entity = entity 
+    this.update()
+      }
+
+      update(){
+        
+       const rotationSpeed = this.speed;
+       const rotationAngle = Math.sin(Date.now() * rotationSpeed);
+
+       this.entity?.addComponent(new Transform({
+        rotation: Quaternion.Euler(0, rotationAngle * 20, 0)
+          }))   
+        
+          this.update()
+        }
+          
+    }
+
 
 // export class PivotRotate implements ISystem {
 //     update() {
