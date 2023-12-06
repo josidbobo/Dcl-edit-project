@@ -1,8 +1,8 @@
 {
-  "customName": "Hammock",
-  "guid": "9ee956d4-6d0e-4ef7-a54d-045036c1b9f1",
+  "customName": "Palm Tree",
+  "guid": "2be3a59c-5ad8-2911-cc9a-5b4c2b105286",
   "parentGuid": null,
-  "hierarchyOrder": 12.0,
+  "hierarchyOrder": 1.0,
   "isExposed": false,
   "components": [
     {
@@ -13,9 +13,9 @@
           "name": "position",
           "type": "Vector3",
           "fixedValue": {
-            "x": 8.545617,
-            "y": 1.3710041,
-            "z": 12.5456152
+            "x": 5.62587738,
+            "y": 0.30547,
+            "z": 12.6258774
           }
         },
         {
@@ -23,9 +23,9 @@
           "type": "Quaternion",
           "fixedValue": {
             "x": 0.0,
-            "y": -0.707106769,
+            "y": 0.0,
             "z": 0.0,
-            "w": 0.707106769
+            "w": 1.0
           }
         },
         {
@@ -34,7 +34,7 @@
           "fixedValue": {
             "x": 1.0,
             "y": 1.0,
-            "z": 1.65
+            "z": 1.0
           }
         }
       ]
@@ -46,7 +46,7 @@
         {
           "name": "asset",
           "type": "Asset",
-          "fixedValue": "17d09db8-4379-4d48-a253-21aaf70b8c3c"
+          "fixedValue": "647f405c-cb12-436e-8116-321404a898b0"
         },
         {
           "name": "visible",
@@ -64,7 +64,18 @@
           "fixedValue": true
         }
       ]
+    },
+    {
+      "nameInCode": "Windy",
+      "nameOfSlot": "EntityMover",
+      "properties": [
+        {
+          "name": "distance",
+          "type": "Float",
+          "fixedValue": 0.0
+        }
+      ]
     }
   ],
-  "dclEditVersionNumber": "3.0.0"
+  "dclEditVersionNumber": "1.0.5"
 }

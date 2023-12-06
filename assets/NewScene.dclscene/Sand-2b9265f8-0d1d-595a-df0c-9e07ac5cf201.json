@@ -1,8 +1,8 @@
 {
-  "customName": "Rustic Post Sign",
-  "guid": "7cb20b05-0ae6-472e-9c49-78c819cccbc2",
+  "customName": "Sand",
+  "guid": "2b9265f8-0d1d-595a-df0c-9e07ac5cf201",
   "parentGuid": null,
-  "hierarchyOrder": 11.0,
+  "hierarchyOrder": 0.0,
   "isExposed": false,
   "components": [
     {
@@ -13,9 +13,9 @@
           "name": "position",
           "type": "Vector3",
           "fixedValue": {
-            "x": 6.68628073,
-            "y": -6.19708061,
-            "z": 7.111542
+            "x": 8.000001,
+            "y": 0.0,
+            "z": 8.0
           }
         },
         {
@@ -23,9 +23,9 @@
           "type": "Quaternion",
           "fixedValue": {
             "x": 0.0,
-            "y": -0.761565566,
+            "y": 0.0,
             "z": 0.0,
-            "w": 0.648087859
+            "w": 1.0
           }
         },
         {
@@ -46,7 +46,7 @@
         {
           "name": "asset",
           "type": "Asset",
-          "fixedValue": "c2c85648-af16-4792-808e-403ebbce0524"
+          "fixedValue": "d727a55b-158d-4506-b102-e1c963953f9c"
         },
         {
           "name": "visible",
@@ -66,5 +66,5 @@
       ]
     }
   ],
-  "dclEditVersionNumber": "3.0.0"
+  "dclEditVersionNumber": "1.0.5"
 }

@@ -1,8 +1,8 @@
 {
-  "customName": "Palm Tree",
-  "guid": "43f0f2d9-6d94-f064-76f1-f988c459a3eb",
+  "customName": "Beach Umbrella",
+  "guid": "bc6f6e15-d1da-c394-18f0-ae492cb71e4c",
   "parentGuid": null,
-  "hierarchyOrder": 2.0,
+  "hierarchyOrder": 7.0,
   "isExposed": false,
   "components": [
     {
@@ -13,9 +13,9 @@
           "name": "position",
           "type": "Vector3",
           "fixedValue": {
-            "x": 4.41264868,
-            "y": -0.07240081,
-            "z": 12.89793
+            "x": 7.54561663,
+            "y": 0.371004045,
+            "z": 6.545616
           }
         },
         {
@@ -46,7 +46,7 @@
         {
           "name": "asset",
           "type": "Asset",
-          "fixedValue": "647f405c-cb12-436e-8116-321404a898b0"
+          "fixedValue": "0be9abea-83ae-4a9c-b24d-8a5ce1b9580f"
         },
         {
           "name": "visible",
@@ -66,5 +66,5 @@
       ]
     }
   ],
-  "dclEditVersionNumber": "3.0.0"
+  "dclEditVersionNumber": "1.0.5"
 }

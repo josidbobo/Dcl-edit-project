@@ -18,17 +18,18 @@
 @Component("EntityMover")
 export class Windy {
     // the properties of your component
-     public speed: number = 0.02 
+     public speed: number = 0.02
      private entity: Entity | undefined
     // optional init funcion, that is called, after the properties are set
     init(entity: Entity) {
-    // Create the pivot entity 
-    this.entity = entity 
+    this.entity = entity;
+    // entity.addComponent(new onPointerDown(() => {
+    //   entity.getComponent(Transform).position.x += this.speed
+    // })) 
     this.update()
       }
-
+    
       update(){
-        
        const rotationSpeed = this.speed;
        const rotationAngle = Math.sin(Date.now() * rotationSpeed);
 
@@ -37,8 +38,7 @@ export class Windy {
           }))   
         
           this.update()
-        }
-          
+        }      
     }
 
 

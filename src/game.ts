@@ -11,6 +11,6 @@
 // switchMaterials.ts
 import {SceneFactory, WithGLTFShape} from "dcl-edit/build/scripts/scenes";
 
-var scene = SceneFactory.createUpgradedScene();
+var scene = SceneFactory.createNewScene();
 
 

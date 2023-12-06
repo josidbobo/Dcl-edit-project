@@ -1,8 +1,8 @@
 {
-  "customName": "Beach Umbrella",
-  "guid": "83a1e6bf-f4f5-4a37-8c8f-936171873b7c",
+  "customName": "Folding Chair",
+  "guid": "be13f7f9-9c48-b563-a629-2404c0d4080f",
   "parentGuid": null,
-  "hierarchyOrder": 8.0,
+  "hierarchyOrder": 6.0,
   "isExposed": false,
   "components": [
     {
@@ -13,9 +13,9 @@
           "name": "position",
           "type": "Vector3",
           "fixedValue": {
-            "x": 7.545616,
-            "y": 0.3710041,
-            "z": 6.545616
+            "x": 7.976614,
+            "y": 0.01909441,
+            "z": 5.97661448
           }
         },
         {
@@ -46,7 +46,7 @@
         {
           "name": "asset",
           "type": "Asset",
-          "fixedValue": "0be9abea-83ae-4a9c-b24d-8a5ce1b9580f"
+          "fixedValue": "27cfd632-905a-4659-81cb-62a9e3c0d0ba"
         },
         {
           "name": "visible",
@@ -66,5 +66,5 @@
       ]
     }
   ],
-  "dclEditVersionNumber": "3.0.0"
+  "dclEditVersionNumber": "1.0.5"
 }

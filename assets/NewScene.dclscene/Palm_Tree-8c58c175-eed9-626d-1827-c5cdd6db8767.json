@@ -1,8 +1,8 @@
 {
-  "customName": "Soccer Ball",
-  "guid": "ab8a34f3-586a-4659-9470-2b866b5caf97",
+  "customName": "Palm Tree",
+  "guid": "8c58c175-eed9-626d-1827-c5cdd6db8767",
   "parentGuid": null,
-  "hierarchyOrder": 10.0,
+  "hierarchyOrder": 2.0,
   "isExposed": false,
   "components": [
     {
@@ -13,9 +13,9 @@
           "name": "position",
           "type": "Vector3",
           "fixedValue": {
-            "x": 2.545617,
-            "y": 0.231004,
-            "z": 4.545616
+            "x": 10.6258774,
+            "y": 0.30547,
+            "z": 10.6258774
           }
         },
         {
@@ -46,7 +46,7 @@
         {
           "name": "asset",
           "type": "Asset",
-          "fixedValue": "44e7b413-1f33-43bc-bada-96659b75bd86"
+          "fixedValue": "647f405c-cb12-436e-8116-321404a898b0"
         },
         {
           "name": "visible",
@@ -66,5 +66,5 @@
       ]
     }
   ],
-  "dclEditVersionNumber": "3.0.0"
+  "dclEditVersionNumber": "1.0.5"
 }

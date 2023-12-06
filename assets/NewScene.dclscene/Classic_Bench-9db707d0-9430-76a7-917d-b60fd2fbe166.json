@@ -1,8 +1,8 @@
 {
-  "customName": "Beach Umbrella",
-  "guid": "6c3198a3-0e74-4ef7-a7f8-8f31df715359",
+  "customName": "Classic Bench",
+  "guid": "9db707d0-9430-76a7-917d-b60fd2fbe166",
   "parentGuid": null,
-  "hierarchyOrder": 4.0,
+  "hierarchyOrder": 8.0,
   "isExposed": false,
   "components": [
     {
@@ -13,9 +13,9 @@
           "name": "position",
           "type": "Vector3",
           "fixedValue": {
-            "x": 10.2363663,
-            "y": 0.204214334,
-            "z": 7.069712
+            "x": 4.252723,
+            "y": 0.371004045,
+            "z": 1.83850932
           }
         },
         {
@@ -23,9 +23,9 @@
           "type": "Quaternion",
           "fixedValue": {
             "x": 0.0,
-            "y": 0.0,
+            "y": 0.5,
             "z": 0.0,
-            "w": 1.0
+            "w": 0.8660254
           }
         },
         {
@@ -46,7 +46,7 @@
         {
           "name": "asset",
           "type": "Asset",
-          "fixedValue": "0be9abea-83ae-4a9c-b24d-8a5ce1b9580f"
+          "fixedValue": "2cd78a5d-d01d-4d31-8940-c7fb8948e14e"
         },
         {
           "name": "visible",
@@ -66,5 +66,5 @@
       ]
     }
   ],
-  "dclEditVersionNumber": "3.0.0"
+  "dclEditVersionNumber": "1.0.5"
 }

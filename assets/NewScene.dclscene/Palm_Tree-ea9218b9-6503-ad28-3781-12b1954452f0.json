@@ -1,8 +1,8 @@
 {
-  "customName": "Folding Chair",
-  "guid": "856bcd36-2d70-c321-dbe1-74bbada2a3cb",
+  "customName": "Palm Tree",
+  "guid": "ea9218b9-6503-ad28-3781-12b1954452f0",
   "parentGuid": null,
-  "hierarchyOrder": 13.5,
+  "hierarchyOrder": 4.0,
   "isExposed": false,
   "components": [
     {
@@ -13,9 +13,9 @@
           "name": "position",
           "type": "Vector3",
           "fixedValue": {
-            "x": 10.7096,
-            "y": 0.200851411,
-            "z": 6.22129536
+            "x": 6.62587738,
+            "y": 0.30547,
+            "z": 0.6258774
           }
         },
         {
@@ -46,7 +46,7 @@
         {
           "name": "asset",
           "type": "Asset",
-          "fixedValue": "27cfd632-905a-4659-81cb-62a9e3c0d0ba"
+          "fixedValue": "647f405c-cb12-436e-8116-321404a898b0"
         },
         {
           "name": "visible",
@@ -64,7 +64,18 @@
           "fixedValue": true
         }
       ]
+    },
+    {
+      "nameInCode": "Windy",
+      "nameOfSlot": "EntityMover",
+      "properties": [
+        {
+          "name": "distance",
+          "type": "Float",
+          "fixedValue": 0.0
+        }
+      ]
     }
   ],
-  "dclEditVersionNumber": "3.0.0"
+  "dclEditVersionNumber": "1.0.5"
 }
